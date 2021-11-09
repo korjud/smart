@@ -1,4 +1,6 @@
 @media (max-width: 991px)
+	.tatle
+		font-size: 32px
 	.header
 		justify-content: space-around
 	.promo
@@ -15,8 +17,6 @@
 	.consultation
 		min-height: 610px
 		padding: 70px 0 70px 0
-		.title_left
-			font-size: 32px
 		&_descr
 			font-size: 18px
 		.feed-form
@@ -25,8 +25,28 @@
 			padding-left: 30px
 		&__descr
 			padding-left: 30px
+	.carousel
+		max-width: 767px
+		padding: 50px 0 60px 0
+		&__inner
+			display: none
+		&__mobile
+			display: block
+			img
+				display: block
+				width: 70%
+				margin: 0 auto
+				margin-bottom: 25px
+	.catalog
+		&__tabs
+			margin-top: 50px
+		&__content
+			justify-content: space-around
+			
 	
 @media (max-width: 767px)
+	.title
+		font-size: 27px
 	.header
 		width: 100%
 	.promo
@@ -52,8 +72,6 @@
 				font-size: 15px
 	.advantage
 		min-height: 430px
-		.title
-			font-size: 27px
 		&__icon
 			img
 				margin-top: 35px
@@ -62,7 +80,6 @@
 	.consultation
 		min-height: 570px
 		.title_left
-			font-size: 28px
 			text-align: center
 		&__descr
 			font-size: 18px
@@ -70,8 +87,31 @@
 		.feed-form
 			margin: 0 auto
 			margin-top: 30px
+	.carousel
+		max-width: 575px
+		padding: 30px 0 40px 0
+		img
+			margin-bottom: 10px
+	.catalog
+		padding-bottom: 50px
+		&__tabs
+			margin-top: 30px
+		&__tab
+			width: 150px
+			height: 33px
+			font-size: 14px
+			line-height: 29px
+	.review
+		&__info
+			margin-bottom: 50px
+		&__comment
+			padding: 0 20px 0 20px
+		&__text
+			font-size: 14px
 
 @media (max-width: 575px)
+	.title
+		font-size: 19px
 	.header
 		&__logo
 			img
@@ -111,8 +151,6 @@
 				font-size: 12px
 	.advantage
 		padding: 40px 0 50px 0
-		.title
-			font-size: 19px
 		&__wrapper
 			flex-direction: column
 		&__icon
@@ -129,7 +167,6 @@
 		padding: 40px 0 40px 0
 		.title_left
 			padding-left: 0
-			font-size: 18px
 		&__descr
 			padding-left: 0
 			font-size: 13px        
@@ -142,3 +179,20 @@
 				height: 40px
 		.button_submit
 			height: 45px
+	.carousel
+		max-width: 320px
+	.catalog
+		padding-bottom: 30px
+		&__tabs
+			flex-direction: column
+			margin-top: 10px
+		&__content
+			margin-top: 20px
+	.review
+		&__info
+			margin-bottom: 30px
+		&__descr
+			display: none
+		img
+			display: none
+		
